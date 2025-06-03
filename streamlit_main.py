@@ -1,3 +1,10 @@
+# SQLite fix for ChromaDB - MUST be at the very top
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+import fix_sqlite  # This must be first!
+
+
 import streamlit as st
 from datetime import datetime
 from course_planner.crew import CoursePlanner

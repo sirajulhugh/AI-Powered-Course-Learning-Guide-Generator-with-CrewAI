@@ -4,3 +4,5 @@ browser_use
 asyncio
 python-dotenv
 langchain_google_genai
+streamlit
+python-dotenv

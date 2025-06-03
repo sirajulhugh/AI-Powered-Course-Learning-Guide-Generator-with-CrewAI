@@ -1,12 +1,11 @@
 streamlit>=1.28.0
 crewai>=0.30.0
+crewai-tools
 langchain>=0.1.0
 langchain-openai>=0.1.0
 python-dotenv>=1.0.0
 openai>=1.12.0
 pandas>=2.0.0
 numpy>=1.24.0
-chromadb==0.4.15
-sqlite3
-pysqlite3-binary
-rich==13.7.0
+chromadb>=0.5.23
+rich>=13.7.0,<14.0.0

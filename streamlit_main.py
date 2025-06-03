@@ -2,7 +2,6 @@
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-import fix_sqlite  # This must be first!
 
 
 import streamlit as st

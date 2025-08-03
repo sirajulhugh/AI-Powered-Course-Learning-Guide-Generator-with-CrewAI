@@ -82,8 +82,9 @@ Daily Hours: "2 hours"
 
 ---
 
-## 🧾 Folder Structure
+### 📁 Folder Structure
 
+```
 COURSE_PLANNER/
 ├── main.py
 └── course_planner/
@@ -93,7 +94,7 @@ COURSE_PLANNER/
     ├── .env
     ├── crew.py
     └── requirements.txt
-
+```
 
 
 ---
@@ -147,4 +148,5 @@ Please [open an issue](https://github.com/your-repo/issues) or submit a pull req
 ---
 
 🧪 Built with a passion for **accessible education** and **AI-powered productivity**.
+
 

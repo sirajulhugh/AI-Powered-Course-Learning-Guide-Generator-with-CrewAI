@@ -87,12 +87,13 @@ Daily Hours: "2 hours"
 COURSE_PLANNER/
 ├── main.py
 └── course_planner/
-├── config/
-│ ├── agents.yaml
-│ └── tasks.yaml
-├── .env
-├── crew.py
-└── requirements.txt
+    ├── config/
+    │   ├── agents.yaml
+    │   └── tasks.yaml
+    ├── .env
+    ├── crew.py
+    └── requirements.txt
+
 
 
 ---
@@ -146,3 +147,4 @@ Please [open an issue](https://github.com/your-repo/issues) or submit a pull req
 ---
 
 🧪 Built with a passion for **accessible education** and **AI-powered productivity**.
+
